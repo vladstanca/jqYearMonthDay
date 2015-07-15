@@ -44,7 +44,7 @@
 			return html;
 		};
 
-		// Greenify the collection based on the settings variable.
+		// Work on collection
 		return this.each(function() {
 			var el     = this;
 			var years  = range(settings.yearStart, settings.yearCount);
